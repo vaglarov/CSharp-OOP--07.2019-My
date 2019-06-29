@@ -1,0 +1,11 @@
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\bin\Debug\netcoreapp2.1\001.RhombusOfStars.deps.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\bin\Debug\netcoreapp2.1\001.RhombusOfStars.runtimeconfig.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\bin\Debug\netcoreapp2.1\001.RhombusOfStars.runtimeconfig.dev.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\bin\Debug\netcoreapp2.1\001.RhombusOfStars.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\bin\Debug\netcoreapp2.1\001.RhombusOfStars.pdb
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.csprojAssemblyReference.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.AssemblyInfoInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.AssemblyInfo.cs
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\001.RhombusOfStars\obj\Debug\netcoreapp2.1\001.RhombusOfStars.pdb

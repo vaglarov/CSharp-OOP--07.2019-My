@@ -1,0 +1,11 @@
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\bin\Debug\netcoreapp2.1\002.PointInRectangle.deps.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\bin\Debug\netcoreapp2.1\002.PointInRectangle.runtimeconfig.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\bin\Debug\netcoreapp2.1\002.PointInRectangle.runtimeconfig.dev.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\bin\Debug\netcoreapp2.1\002.PointInRectangle.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\bin\Debug\netcoreapp2.1\002.PointInRectangle.pdb
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.csprojAssemblyReference.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.AssemblyInfoInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.AssemblyInfo.cs
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vc\Abstraction\002.PointInRectangle\obj\Debug\netcoreapp2.1\002.PointInRectangle.pdb
