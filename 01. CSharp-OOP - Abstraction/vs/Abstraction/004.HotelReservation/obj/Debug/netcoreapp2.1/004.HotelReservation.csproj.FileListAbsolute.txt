@@ -1,0 +1,11 @@
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\bin\Debug\netcoreapp2.1\004.HotelReservation.deps.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\bin\Debug\netcoreapp2.1\004.HotelReservation.runtimeconfig.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\bin\Debug\netcoreapp2.1\004.HotelReservation.runtimeconfig.dev.json
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\bin\Debug\netcoreapp2.1\004.HotelReservation.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\bin\Debug\netcoreapp2.1\004.HotelReservation.pdb
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.csprojAssemblyReference.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.AssemblyInfoInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.AssemblyInfo.cs
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.dll
+D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\vs\Abstraction\004.HotelReservation\obj\Debug\netcoreapp2.1\004.HotelReservation.pdb
