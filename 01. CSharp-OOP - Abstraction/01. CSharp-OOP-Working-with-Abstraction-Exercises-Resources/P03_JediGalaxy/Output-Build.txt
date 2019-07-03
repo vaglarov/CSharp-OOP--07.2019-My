@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: P03_JediGalaxy, Configuration: Debug Any CPU ------
+1>P03_JediGalaxy -> D:\SoftUni\C# OOP -07.2019-My\01. CSharp-OOP - Abstraction\01. CSharp-OOP-Working-with-Abstraction-Exercises-Resources\P03_JediGalaxy\bin\Debug\netcoreapp2.0\P03_JediGalaxy.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
