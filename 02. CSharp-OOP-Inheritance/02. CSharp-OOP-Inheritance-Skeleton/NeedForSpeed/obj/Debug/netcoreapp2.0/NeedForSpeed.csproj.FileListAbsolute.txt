@@ -1,0 +1,11 @@
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\bin\Debug\netcoreapp2.0\NeedForSpeed.deps.json
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\bin\Debug\netcoreapp2.0\NeedForSpeed.runtimeconfig.json
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\bin\Debug\netcoreapp2.0\NeedForSpeed.runtimeconfig.dev.json
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\bin\Debug\netcoreapp2.0\NeedForSpeed.dll
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\bin\Debug\netcoreapp2.0\NeedForSpeed.pdb
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.csprojAssemblyReference.cache
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.AssemblyInfoInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.AssemblyInfo.cs
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.dll
+D:\SoftUni\C# OOP -07.2019-My\02. CSharp-OOP-Inheritance\02. CSharp-OOP-Inheritance-Skeleton\NeedForSpeed\obj\Debug\netcoreapp2.0\NeedForSpeed.pdb
