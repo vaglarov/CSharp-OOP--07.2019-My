@@ -1,0 +1,10 @@
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\obj\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.csproj.CoreCompileInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\obj\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.AssemblyInfoInputs.cache
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\obj\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.AssemblyInfo.cs
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\bin\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.deps.json
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\bin\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.runtimeconfig.json
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\bin\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.runtimeconfig.dev.json
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\bin\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.dll
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\bin\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.pdb
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\obj\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.dll
+D:\SoftUni\C# OOP -07.2019-My\05.Polymorphism\vs\Polymorphism\102(2).VehiclesExtePolymorph\obj\Debug\netcoreapp2.1\102(2).VehiclesExtePolymorph.pdb
