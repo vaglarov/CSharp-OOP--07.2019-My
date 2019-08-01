@@ -51,7 +51,7 @@ namespace PlayersAndMonsters.Models.BattleFields
 
         private void ChechkedForBeginers(IPlayer player)
         {
-            if (player.GetType()== typeof(Beginner))
+            if (player.GetType().Name== "Beginner")
             {
                 player.Health += Default_Health_Increase;
                 foreach (var card in player.CardRepository.Cards)

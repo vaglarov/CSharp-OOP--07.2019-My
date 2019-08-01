@@ -18,11 +18,6 @@ namespace PlayersAndMonsters.Repositories
 
         public IReadOnlyCollection<ICard> Cards => this.repository.AsReadOnly();
 
-
-//      •	If the card is null, throw an ArgumentException with message "Card cannot be null!".
-//•	If a card exists with a name equal to the name of the given card, throw an ArgumentException with message "Card {name} already exists!".
-
-
         public void Add(ICard card)
         {
             if (card==null)
@@ -30,7 +25,7 @@ namespace PlayersAndMonsters.Repositories
                 throw new ArgumentException("Card cannot be null!");
             }
             var searchingCard = this.repository.FirstOrDefault(c => c.Name == card.Name);
-            if (searchingCard==null)
+            if (searchingCard!=null)
             {
                 throw new ArgumentException($"Card {card.Name} already exists!");
             }
@@ -40,6 +35,7 @@ namespace PlayersAndMonsters.Repositories
         public ICard Find(string name)
         {
             var searchingCard = this.repository.FirstOrDefault(c => c.Name == name);
+
             return searchingCard;
         }
 
