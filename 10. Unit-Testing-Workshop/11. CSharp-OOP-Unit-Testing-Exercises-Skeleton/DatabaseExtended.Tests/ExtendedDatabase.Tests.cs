@@ -1,126 +1,217 @@
-using ExtendedDatabase;
-using NUnit.Framework;
 using System;
+
+using NUnit.Framework;
+
+using ExtendedDatabase;
 
 namespace Tests
 {
     public class ExtendedDatabaseTests
     {
-        private ExtendedDatabase.ExtendedDatabase data;
+        private Person person;
+        private ExtendedDatabase.ExtendedDatabase db;
 
         [SetUp]
         public void Setup()
         {
-            Person personOne = new Person(1, "Abc");
-            Person personTwo = new Person(2, "Abcd");
-            Person[] persons = new Person[] { personOne, personTwo };
-            this.data = new ExtendedDatabase.ExtendedDatabase(persons);
+            long id = 123;
+            string username = "user123";
 
-        }
-        [Test]
-        public void AddWorkCorrectly()
-        {
-            int expectedCount = 3;
+            this.person = new Person(id, username);
 
-            Person persontree = new Person(3, "Abcde");
-            this.data.Add(persontree);
-            
-            Assert.AreEqual(expectedCount, this.data.Count);
+            this.db = new ExtendedDatabase.ExtendedDatabase(person);
         }
 
         [Test]
-        public void AddPersonWithSameUserName()
-        {
-            
-
-            Person persontree = new Person(3, "Abcd");
-
-            Assert.Throws<InvalidOperationException>(()=>this.data.Add(persontree) );
-        }
-
-        [Test]
-        public void AddPersonWithSameID()
-        {
-            Person persontree = new Person(2, "Abcde");
-
-            Assert.Throws<InvalidOperationException>(() => this.data.Add(persontree));
-        }
-
-        [Test]
-        public void RemoveWorkingCorrectly()
+        public void CreatingDbWithCorrectCount()
         {
             int expectedCount = 1;
 
-            this.data.Remove();
-
-            Assert.AreEqual(expectedCount, this.data.Count);
+            Assert.AreEqual(expectedCount, this.db.Count);
         }
 
-        [Test]
-        public void RemoveFromEmptyCorrectly()
+        [Test]                
+        public void CreatingDbWithCapacityLargerThan16Throws()
         {
-            while (this.data.Count!=0)
+            Person[] people = new Person[17];
+
+            for (int i = 0; i < people.Length; i++)
             {
-                this.data.Remove();
+                people[i] = new Person(i, i.ToString());
             }
 
-            Assert.Throws<InvalidOperationException>(()=>this.data.Remove());
-        }
-        [Test]
-        public void FindByNameWihtNullArgument()
-        {
-            string emptyName = string.Empty;
-
-            Assert.Throws<ArgumentNullException>(() => this.data.FindByUsername(emptyName));
+            Assert.That(
+                () => this.db = new ExtendedDatabase.ExtendedDatabase(people),
+                Throws.ArgumentException.With.Message
+                    .EqualTo("Provided data length should be in range [0..16]!"));
         }
 
+        //Add Method Tests
         [Test]
-        public void FindByNameWihtInvalidUserName()
+        public void CountIncreasesWhenAdding()
         {
-            string invalidName = "invalid name";
+            long id = 456;
+            string username = "username456";
+            Person newUser = new Person(id, username);
+            this.db.Add(newUser);
 
-            Assert.Throws<InvalidOperationException>(() => this.data.FindByUsername(invalidName));
-        }
-        [Test]
-        public void FindByNameWorkingCorrectly()
-        {
-            Person expectPerson = new Person(16, "Abcde");
+            int expectedCount = 2;
 
-            this.data.Add(expectPerson);
-            string currentName = expectPerson.UserName;
-            Person personWithThatName = this.data.FindByUsername(currentName);
-
-            Assert.AreEqual(expectPerson, personWithThatName);
-        }
-        [Test]
-        public void FindByIdWorkingCorrectly()
-        {
-            Person expectPerson = new Person(16, "Abcde");
-
-            this.data.Add(expectPerson);
-            long currentName = expectPerson.Id;
-            Person personWithThatName = this.data.FindById(currentName);
-
-            Assert.AreEqual(expectPerson, personWithThatName);
+            Assert.AreEqual(expectedCount, this.db.Count);
         }
 
         [Test]
-        public void FindByIdWihtInvalidId()
+        public void AddingUserWithExistingUsersUsernameShouldThrow()
         {
-           
-            long invalidId = 007;
+            long id = 456;
+            Person newUser = new Person(id, this.person.UserName);
 
-
-            Assert.Throws<InvalidOperationException>(()=>this.data.FindById(invalidId));
+            Assert.That(
+                () => this.db.Add(newUser),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("There is already user with this username!"));
         }
+
         [Test]
-        public void FindByIdWihtNegativeId()
+        public void AddingUserWithExistingUsersIdShouldThrow()
         {
+            Person newUser = new Person(this.person.Id, "user456");
 
-            long invalidId = -007;
+            Assert.That(
+                () => this.db.Add(newUser),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("There is already user with this Id!"));
+        }
+
+        [Test]
+        public void AddingElementWhenFullCapacityReachedThrows()
+        {
+            Person[] people = new Person[15];
+
+            for (int i = 0; i < people.Length; i++)
+            {
+                people[i] = new Person(i, i.ToString());
+
+                this.db.Add(people[i]);
+            }
+
+            long id = 456;
+            string username = "username456";
+            Person newUser = new Person(id, username);
+
+            Assert.That(
+                () => this.db.Add(newUser),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("Array's capacity must be exactly 16 integers!"));
+        }
+
+        //Remove Method Tests
+        [Test]
+        public void RemoveElementRemovesLastElement()
+        {
+            this.db.Remove();
+
+            int expectedCount = 0;
+
+            Assert.AreEqual(expectedCount, this.db.Count);
+        }
+
+        [Test]
+        public void RemoveElementFromEmptyDbThrows()
+        {
+            this.db.Remove();
+
+            Assert.That(
+                () => this.db.Remove(),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("Operation is not valid due to the current state of the object."));
+        }
+
+        //FindByUsername Method Tests
+        [Test]
+        public void FindByUsernameWithInvalidUsernameShouldThrow()
+        {
+            string invalidUsername = "user456";
+
+            Assert.That(
+                () => this.db.FindByUsername(invalidUsername),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("No user is present by this username!"));
+        }
+
+        [Test]
+        public void FindByUsernameWithNullShouldThrow()
+        {
+            string nullUsername = null;
+
+            Assert.That(
+                () => this.db.FindByUsername(nullUsername),
+                Throws.ArgumentNullException.With.Message
+                    .EqualTo("Value cannot be null."
+                    + Environment.NewLine
+                    + "Parameter name: Username parameter is null!"));
+        }
+
+        [Test]
+        public void FindByUsernameIsCaseSensitive()
+        {
+            string invalidUsername = this.person.UserName.ToUpper();
+
+            Assert.That(
+                () => this.db.FindByUsername(invalidUsername),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("No user is present by this username!"));
+        }
+
+        [Test]
+        public void FindByUserNameFindsCorrectPerson()
+        {
+            long id = 456;
+            string username = "username456";
+            Person newUser = new Person(id, username);
+            this.db.Add(newUser);
+
+            Person person = this.db.FindByUsername(username);
+
+            Assert.AreEqual(newUser, person);
+        }
+
+        //FindById Method Tests
+        [Test]
+        public void FindByIdNoUserPresentShouldThrow()
+        {
+            long invalidId = 456;
+
+            Assert.That(
+                () => this.db.FindById(invalidId),
+                Throws.InvalidOperationException.With.Message
+                    .EqualTo("No user is present by this ID!"));
+        }
 
 
-            Assert.Throws<ArgumentOutOfRangeException>(() => this.data.FindById(invalidId));
+        [Test]
+        public void FindByIdNegativeIdShouldThrow()
+        {
+            long invalidId = -456;
+
+            Assert.Throws<ArgumentOutOfRangeException>(
+                () => this.db.FindById(invalidId),
+                "Specified argument was out of the range of valid values."
+                + Environment.NewLine
+                + "Parameter name: Id should be a positive number!");
+        }
+
+        [Test]
+        public void FindByIdFindsCorrectPerson()
+        {
+            long id = 456;
+            string username = "username456";
+            Person newUser = new Person(id, username);
+            this.db.Add(newUser);
+
+            Person person = this.db.FindById(id);
+
+            Assert.AreEqual(newUser, person);
         }
     }
 }
