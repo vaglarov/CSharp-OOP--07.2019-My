@@ -1,0 +1,80 @@
+﻿[8.8.2019 г. 10:24:03 Informational] ------ Run test started ------
+[8.8.2019 г. 10:24:04 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:24:05 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:24:05 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:24:06 Informational] NUnit3TestExecutor converted 1 of 1 NUnit test cases
+[8.8.2019 г. 10:24:06 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:24:06 Informational] ========== Run test finished: 1 run (0:00:03,2812853) ==========
+[8.8.2019 г. 10:32:30 Informational] ------ Run test started ------
+[8.8.2019 г. 10:32:30 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:32:31 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:32:31 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:32:31 Informational] NUnit3TestExecutor converted 5 of 5 NUnit test cases
+[8.8.2019 г. 10:32:31 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:32:32 Informational] ========== Run test finished: 5 run (0:00:02,1747992) ==========
+[8.8.2019 г. 10:33:24 Informational] ------ Run test started ------
+[8.8.2019 г. 10:33:24 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:33:25 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:33:25 Informational] Running selected tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:33:25 Informational] NUnit3TestExecutor converted 5 of 5 NUnit test cases
+[8.8.2019 г. 10:33:25 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:33:25 Informational] ========== Run test finished: 5 run (0:00:01,9568583) ==========
+[8.8.2019 г. 10:36:02 Informational] ------ Run test started ------
+[8.8.2019 г. 10:36:02 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:36:03 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:36:03 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:36:03 Informational] NUnit3TestExecutor converted 7 of 7 NUnit test cases
+[8.8.2019 г. 10:36:03 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:36:03 Informational] ========== Run test finished: 7 run (0:00:01,7900572) ==========
+[8.8.2019 г. 10:37:56 Informational] ------ Run test started ------
+[8.8.2019 г. 10:37:56 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:37:57 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:37:57 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:37:58 Informational] NUnit3TestExecutor converted 8 of 8 NUnit test cases
+[8.8.2019 г. 10:37:58 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:37:58 Informational] ========== Run test finished: 1 run (0:00:01,8962307) ==========
+[8.8.2019 г. 10:41:07 Informational] ------ Run test started ------
+[8.8.2019 г. 10:41:07 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:41:08 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:41:08 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:41:09 Informational] NUnit3TestExecutor converted 9 of 9 NUnit test cases
+[8.8.2019 г. 10:41:09 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:41:09 Informational] ========== Run test finished: 9 run (0:00:01,9511999) ==========
+[8.8.2019 г. 10:45:13 Informational] ------ Run test started ------
+[8.8.2019 г. 10:45:14 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:45:15 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:45:15 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:45:15 Informational] NUnit3TestExecutor converted 10 of 10 NUnit test cases
+[8.8.2019 г. 10:45:15 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:45:15 Informational] ========== Run test finished: 1 run (0:00:02,0618905) ==========
+[8.8.2019 г. 10:46:09 Informational] ------ Run test started ------
+[8.8.2019 г. 10:46:10 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+Telecom.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[8.8.2019 г. 10:46:11 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[8.8.2019 г. 10:46:11 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\14 April 2019\03. Unit Tests_Skeleton\Telecom.Tests\bin\Debug\netcoreapp2.1\Telecom.Tests.dll
+[8.8.2019 г. 10:46:11 Informational] NUnit3TestExecutor converted 11 of 11 NUnit test cases
+[8.8.2019 г. 10:46:11 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[8.8.2019 г. 10:46:11 Informational] ========== Run test finished: 1 run (0:00:01,9373381) ==========
