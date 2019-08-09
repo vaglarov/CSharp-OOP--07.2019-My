@@ -1,0 +1,80 @@
+﻿[9.8.2019 г. 8:55:34 Informational] ------ Run test started ------
+[9.8.2019 г. 8:55:35 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 8:55:36 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 8:55:36 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 8:55:36 Informational] NUnit3TestExecutor converted 1 of 1 NUnit test cases
+[9.8.2019 г. 8:55:37 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 8:55:37 Informational] ========== Run test finished: 1 run (0:00:03,4036769) ==========
+[9.8.2019 г. 9:03:47 Informational] ------ Run test started ------
+[9.8.2019 г. 9:03:48 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:03:48 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:03:49 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:03:49 Informational] NUnit3TestExecutor converted 2 of 2 NUnit test cases
+[9.8.2019 г. 9:03:49 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:03:49 Informational] ========== Run test finished: 1 run (0:00:01,9540843) ==========
+[9.8.2019 г. 9:06:27 Informational] ------ Run test started ------
+[9.8.2019 г. 9:06:28 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:06:29 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:06:29 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:06:29 Informational] NUnit3TestExecutor converted 3 of 3 NUnit test cases
+[9.8.2019 г. 9:06:29 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:06:29 Informational] ========== Run test finished: 1 run (0:00:01,6716204) ==========
+[9.8.2019 г. 9:07:40 Informational] ------ Run test started ------
+[9.8.2019 г. 9:07:41 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:07:41 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:07:41 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:07:42 Informational] NUnit3TestExecutor converted 4 of 4 NUnit test cases
+[9.8.2019 г. 9:07:42 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:07:42 Informational] ========== Run test finished: 1 run (0:00:01,7137122) ==========
+[9.8.2019 г. 9:09:39 Informational] ------ Run test started ------
+[9.8.2019 г. 9:09:39 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:09:40 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:09:40 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:09:40 Informational] NUnit3TestExecutor converted 5 of 5 NUnit test cases
+[9.8.2019 г. 9:09:40 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:09:41 Informational] ========== Run test finished: 1 run (0:00:01,6592527) ==========
+[9.8.2019 г. 9:11:14 Informational] ------ Run test started ------
+[9.8.2019 г. 9:11:15 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:11:16 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:11:16 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:11:16 Informational] NUnit3TestExecutor converted 6 of 6 NUnit test cases
+[9.8.2019 г. 9:11:16 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:11:16 Informational] ========== Run test finished: 1 run (0:00:01,8318706) ==========
+[9.8.2019 г. 9:13:42 Informational] ------ Run test started ------
+[9.8.2019 г. 9:13:42 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:13:43 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:13:43 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:13:43 Informational] NUnit3TestExecutor converted 7 of 7 NUnit test cases
+[9.8.2019 г. 9:13:43 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:13:43 Informational] ========== Run test finished: 1 run (0:00:01,6017216) ==========
+[9.8.2019 г. 9:15:23 Informational] ------ Run test started ------
+[9.8.2019 г. 9:15:23 Warning] Test run will use DLL(s) built for framework .NETCoreApp,Version=v1.0 and platform X86. Following DLL(s) do not match framework/platform settings.
+ParkingSystem.Tests.dll is built for Framework 2.1 and Platform AnyCPU.
+Go to http://go.microsoft.com/fwlink/?LinkID=236877&clcid=0x409 for more details on managing these settings.
+
+[9.8.2019 г. 9:15:24 Informational] NUnit Adapter 3.9.0.0: Test execution started
+[9.8.2019 г. 9:15:24 Informational] Running all tests in D:\SoftUni\C# OOP -07.2019-My\Exam Test\18 April 2019\03. Unit Tests_Skeleton\ParkingSystem.Tests\bin\Debug\netcoreapp2.1\ParkingSystem.Tests.dll
+[9.8.2019 г. 9:15:25 Informational] NUnit3TestExecutor converted 8 of 8 NUnit test cases
+[9.8.2019 г. 9:15:25 Informational] NUnit Adapter 3.9.0.0: Test execution complete
+[9.8.2019 г. 9:15:25 Informational] ========== Run test finished: 1 run (0:00:01,7011593) ==========
